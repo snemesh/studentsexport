@@ -5,8 +5,8 @@
         {{--<div><img src="/images/logo_sm.jpg" alt="Logo" title="logo"></div>--}}
         <div  style='margin: 10px;  text-align: left'>
 
-            <input type="submit" id="checkid" value="Export" href="attendence">
-            <button><a href="/view">>>> Students</a></button>
+            <input type="submit" id="checkid" value="Export..." href="attendence">
+            <button><a href="/view"> >>> Students</a></button>
             <input type="hidden" id="arrayOfids" name="arrayOfids" value="">
         </div>
     </div>

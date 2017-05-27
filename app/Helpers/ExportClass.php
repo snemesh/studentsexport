@@ -2,8 +2,6 @@
 
 namespace App\Helpers;
 
-use Illuminate\Http\Response;
-use Illuminate\Http\Request;
 use App\Models\Students;
 use App\Models\Course;
 
@@ -80,7 +78,6 @@ class ExportClass
 
         //Closing descriptor
         fclose($file);
-
 
         return $pathToFile;
 
